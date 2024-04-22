@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form>
+        <input type="text" name="fullname" id="fullnameid" placeholder="full name">
+        <input type="email" name="email" id="emailid" placeholder="Email">
+        <input type="number" name="number" id="numberid" placeholder="number">
+
+        <p>Event Details</p>
+        <select name="dropdown-menu" id="dropmenu" aria-placeholder="none">
+            <option value="Technical event">Technical event</option>
+            <option value="Entrepreneurship event">Entrepreneurship event</option>
+            <option value="Business event">Business event</option>
+        </select>
+
+        <p>T-Shirt Size</p>
+        <input type="radio" name="tsize" id="Small" value="Smallval">
+        <label for="Small">Small</label>
+        <input type="radio" name="tsize" id="Medium" value="Mediumval">
+        <label for="Medium">Medium</label>
+        <input type="radio" name="tsize" id="Large" value="Largeval">
+        <label for="Large">Large</label>
+        <input type="radio" name="tsize" id="Extra Large" value="Extra Large val">
+        <label for="Extra Large">Extra Large</label>
+
+        <p>Additional Information</p>
+        <label>dietary restrictions: </label>
+        <input type="checkbox" id="veg" value="vegval" name="addinfo">vegetarian</input>
+        <input type="checkbox" id="vegan" value="vegval" name="addinfo">vegan</input>
+        <input type="checkbox" id="glutan" value="gluval" name="addinfo">glutan-free</input>
+
+        <p>How did you hear about the event</p>
+        <input type="radio" value="1" id="hearevent">Social media</input>
+        <input type="radio" value="2" id="hearevent2">Friend/Family</input>
+        <input type="radio" value="3" id="hearevent3">Website</input>
+        <input type="radio" value="4" id="hearevent4">Youtube</input>
+
+        <button type="submit" id="sub">Submit</button>
+    </form>
+
+</body>
+<script src="assign02_C32.js"></script>
+<!-- <script src="assign01_C32.js"></script> -->
+
+</html>
